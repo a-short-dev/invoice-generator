@@ -26,7 +26,7 @@ const HomePage = () => {
 				min-h-screen 
 				backdrop-brightness-75"
       >
-        <div className="max-w-2xl w-full space-y-6">
+        <div className="max-w-sm w-full space-y-6">
           <div className="text-center flex flex-col items-center justify-center space-y-3 w-full">
             <motion.h1
               className="
