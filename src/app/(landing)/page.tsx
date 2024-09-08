@@ -31,7 +31,7 @@ const HomePage = () => {
             <motion.h1
               className="
 							text-5xl 
-							font-extrabold  
+							font-semibold  
 							sm:text-6xl 
 							font-mono 
 							text-gray-900 
