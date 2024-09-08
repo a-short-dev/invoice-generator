@@ -16,8 +16,6 @@ const HomePage = () => {
       <div
         className="
 				relative 
-				p-3 
-				md:p-0 
 				w-full 
 				flex 
 				items-center 
@@ -26,7 +24,7 @@ const HomePage = () => {
 				min-h-screen 
 				backdrop-brightness-75"
       >
-        <div className="max-w-sm w-full space-y-6">
+        <div className="max-w-xl w-full space-y-6">
           <div className="text-center flex flex-col items-center justify-center space-y-3 w-full">
             <motion.h1
               className="
@@ -40,7 +38,8 @@ const HomePage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, ease: [0.42, 0, 0.58, 1] }}
             >
-              Effortlessly Create <br /> Invoices.
+              Effortlessly
+              <br /> Create Invoices.
               <br />
               <span className=""> For Free!</span>
             </motion.h1>
@@ -49,7 +48,7 @@ const HomePage = () => {
 							text-sm 
 							sm:text-base 
 							leading-5 
-							max-w-md 
+						  p-2
 							w-full 
 							mx-auto 
 							sm:leading-normal 
