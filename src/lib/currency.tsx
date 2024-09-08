@@ -2,22 +2,11 @@ import {
   US,
   NG,
   EU,
-  JP,
-  KR,
-  IL,
-  VN,
-  BD,
-  RU,
-  BR,
-  UA,
-  KZ,
-  TW,
   GB,
   FlagComponent,
-  ID,
 } from "country-flag-icons/react/1x1";
 
-export const currencyList: {
+export type CurrencyList = {
   value: string;
   label: string;
   details: {
@@ -28,7 +17,9 @@ export const currencyList: {
     icon: FlagComponent;
     iconName: string;
   };
-}[] = [
+}[];
+
+export const currencyList: CurrencyList = [
   {
     value: "NGN",
     label: "NGN",

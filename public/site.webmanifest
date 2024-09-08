@@ -1,0 +1,18 @@
+{
+  "name": "Invoice Generator",
+  "short_name": "Invoice Generator",
+  "description": "Create and send professional invoices for free with Invoice Generator. Streamline your billing process and focus on what matters most - growing your business.",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "orientation": "portrait-primary"
+}
