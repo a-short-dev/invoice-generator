@@ -30,7 +30,7 @@ const HomePage = () => {
           <div className="text-center flex flex-col items-center justify-center space-y-3 w-full">
             <motion.h1
               className="
-							text-2xl 
+							text-5xl 
 							font-extrabold  
 							sm:text-6xl 
 							font-mono 
