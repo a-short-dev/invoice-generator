@@ -31,7 +31,7 @@ const HomePage = () => {
             <motion.h1
               className="
 							text-5xl 
-							font-semibold  
+							font-extrabold  
 							sm:text-6xl 
 							font-mono 
 							text-gray-900 
@@ -40,7 +40,7 @@ const HomePage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5, ease: [0.42, 0, 0.58, 1] }}
             >
-              Effortlessly Create Professional Invoices.
+              Effortlessly Create <br /> Invoices.
               <br />
               <span className=""> For Free!</span>
             </motion.h1>
